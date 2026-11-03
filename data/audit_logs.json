@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "collectionName": "audit_logs",
-  "updatedAt": "2026-11-03T03:08:38.303Z",
+  "updatedAt": "2026-11-03T03:47:15.813Z",
   "records": [
     {
       "timestamp": "2026-11-03T02:40:37.233Z",
@@ -346,6 +346,56 @@
       "id": "audit_logs_1793675318303_xe01rxr",
       "createdAt": "2026-11-03T03:08:38.303Z",
       "updatedAt": "2026-11-03T03:08:38.303Z"
+    },
+    {
+      "timestamp": "2026-11-03T03:45:57.032Z",
+      "userId": "users_1793677556293_8u3ukjg",
+      "userEmail": "test_upload_runner@elopar.com.br",
+      "module": "auth",
+      "action": "LOGIN",
+      "summary": "Login bem-sucedido do usuário test_upload_runner@elopar.com.br",
+      "ipAddress": "127.0.0.1",
+      "id": "audit_logs_1793677557032_cjpuays",
+      "createdAt": "2026-11-03T03:45:57.032Z",
+      "updatedAt": "2026-11-03T03:45:57.032Z"
+    },
+    {
+      "timestamp": "2026-11-03T03:45:57.082Z",
+      "userId": "users_1793677556293_8u3ukjg",
+      "userEmail": "test_upload_runner@elopar.com.br",
+      "module": "tecban",
+      "action": "IMPORT",
+      "recordId": "import_versions_1793677557081_x7eqd8d",
+      "summary": "Importação de planilha concluída no módulo tecban: dados_tecban_commit.csv (0 novos, 1 alterados)",
+      "ipAddress": "127.0.0.1",
+      "id": "audit_logs_1793677557083_02ef3xm",
+      "createdAt": "2026-11-03T03:45:57.083Z",
+      "updatedAt": "2026-11-03T03:45:57.083Z"
+    },
+    {
+      "timestamp": "2026-11-03T03:47:15.762Z",
+      "userId": "users_1793677634991_ib5h9rs",
+      "userEmail": "test_upload_runner@elopar.com.br",
+      "module": "auth",
+      "action": "LOGIN",
+      "summary": "Login bem-sucedido do usuário test_upload_runner@elopar.com.br",
+      "ipAddress": "127.0.0.1",
+      "id": "audit_logs_1793677635763_p2cet79",
+      "createdAt": "2026-11-03T03:47:15.763Z",
+      "updatedAt": "2026-11-03T03:47:15.763Z"
+    },
+    {
+      "timestamp": "2026-11-03T03:47:15.813Z",
+      "userId": "users_1793677634991_ib5h9rs",
+      "userEmail": "test_upload_runner@elopar.com.br",
+      "module": "tecban",
+      "action": "IMPORT",
+      "recordId": "import_versions_1793677635812_0y08x18",
+      "summary": "Importação de planilha concluída no módulo tecban: dados_tecban_commit.csv (0 novos, 1 alterados)",
+      "ipAddress": "127.0.0.1",
+      "id": "audit_logs_1793677635813_sd4i936",
+      "createdAt": "2026-11-03T03:47:15.813Z",
+      "updatedAt": "2026-11-03T03:47:15.813Z"
     }
   ]
 }

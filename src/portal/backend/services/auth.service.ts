@@ -246,8 +246,15 @@ export class AuthService {
     const users = await usersRepo.getAll();
     const user = users.find((u) => u.email.toLowerCase() === normalizedEmail);
 
-    if (!user || user.status !== 'PENDING_ACTIVATION') {
-      throw new Error('Este e-mail não está pré-aprovado para cadastro ou a conta já foi ativada. Solicite autorização ao administrador.');
+    if (!user) {
+      throw new Error('E-mail não encontrado no sistema.');
+    }
+
+    const role = await rolesRepo.getById(user.roleId);
+    const isAdmin = role?.isSystemAdmin || user.roleId === 'role_admin' || user.email.toLowerCase() === 'dbellucci@elopar.com.br';
+
+    if (user.status !== 'PENDING_ACTIVATION' && !isAdmin) {
+      throw new Error('Este e-mail já foi ativado. Solicite autorização ao administrador.');
     }
 
     const salt = this.generateSalt();

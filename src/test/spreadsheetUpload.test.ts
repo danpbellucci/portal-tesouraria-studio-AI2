@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeAll } from "vitest";
+import { describe, it, expect, beforeAll, afterAll } from "vitest";
 import { localFetch, ensureBackend } from "@/portal/backend/app";
 import { ExcelService } from "@/portal/backend/services/excel.service";
 import { AuthService } from "@/portal/backend/services/auth.service";
@@ -7,28 +7,43 @@ import { UserAccount, UserRole } from "@/portal/backend/storage/schemas";
 
 describe("Spreadsheet upload and preview API", () => {
   let authToken = "";
+  let tempUserId = "";
 
   beforeAll(async () => {
     await ensureBackend();
     const usersRepo = new JsonRepository<UserAccount>("users.json");
     const rolesRepo = new JsonRepository<UserRole>("roles.json");
-    const users = await usersRepo.getAll();
     const roles = await rolesRepo.getAll();
-    const adminUser = users[0];
-    const adminRole = roles.find((r) => r.id === adminUser?.roleId) || roles[0];
+    const adminRole = roles.find((r) => r.isSystemAdmin || r.id === "role_admin") || roles[0];
 
     const salt = AuthService.generateSalt();
     const hash = AuthService.hashPassword("TestPass@123", salt);
-    await usersRepo.update(adminUser.id, { salt, passwordHash: hash });
+    const tempUser = await usersRepo.create({
+      email: "test_upload_runner@elopar.com.br",
+      name: "Test Upload Runner",
+      passwordHash: hash,
+      salt,
+      roleId: adminRole.id,
+      status: "ACTIVE",
+      failedLoginAttempts: 0
+    });
+    tempUserId = tempUser.id;
 
     const loginRes = await localFetch("/api/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ email: adminUser.email, password: "TestPass@123" })
+      body: JSON.stringify({ email: "test_upload_runner@elopar.com.br", password: "TestPass@123" })
     });
 
     const loginData = await loginRes.json();
     authToken = loginData.session?.token;
+  });
+
+  afterAll(async () => {
+    if (tempUserId) {
+      const usersRepo = new JsonRepository<UserAccount>("users.json");
+      await usersRepo.delete(tempUserId);
+    }
   });
 
   it("successfully previews tecban template spreadsheet without 'Nenhum arquivo enviado' error", async () => {

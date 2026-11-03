@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "collectionName": "import_versions",
-  "updatedAt": "2026-11-03T03:08:38.302Z",
+  "updatedAt": "2026-11-03T03:47:15.812Z",
   "records": [
     {
       "module": "tecban",
@@ -54,6 +54,58 @@
       "id": "import_versions_1793675318302_ent68t5",
       "createdAt": "2026-11-03T03:08:38.302Z",
       "updatedAt": "2026-11-03T03:08:38.302Z"
+    },
+    {
+      "module": "tecban",
+      "fileName": "dados_tecban_commit.csv",
+      "savedFilePath": "/app/applet/imports/1793677557079_dados_tecban_commit.csv",
+      "importedBy": "test_upload_runner@elopar.com.br",
+      "importedAt": "2026-11-03T03:45:57.081Z",
+      "totalRows": 1,
+      "insertedCount": 0,
+      "updatedCount": 1,
+      "rejectedCount": 0,
+      "validationErrors": [],
+      "snapshotSummary": "0 inseridos, 1 atualizados, 0 rejeitados",
+      "dataSnapshot": [
+        {
+          "Data": "29/10/2026",
+          "Saldo D0 Banco (R$)": "200000000",
+          "Saldo D0 Tecban (R$)": "200000000",
+          "Saldo D1 Banco (R$)": "180000000",
+          "Saldo D1 Tecban (R$)": "180000000",
+          "ObservaÃ§Ãµes": "Importado via teste automatizado"
+        }
+      ],
+      "id": "import_versions_1793677557081_x7eqd8d",
+      "createdAt": "2026-11-03T03:45:57.081Z",
+      "updatedAt": "2026-11-03T03:45:57.081Z"
+    },
+    {
+      "module": "tecban",
+      "fileName": "dados_tecban_commit.csv",
+      "savedFilePath": "/app/applet/imports/1793677635809_dados_tecban_commit.csv",
+      "importedBy": "test_upload_runner@elopar.com.br",
+      "importedAt": "2026-11-03T03:47:15.811Z",
+      "totalRows": 1,
+      "insertedCount": 0,
+      "updatedCount": 1,
+      "rejectedCount": 0,
+      "validationErrors": [],
+      "snapshotSummary": "0 inseridos, 1 atualizados, 0 rejeitados",
+      "dataSnapshot": [
+        {
+          "Data": "29/10/2026",
+          "Saldo D0 Banco (R$)": "200000000",
+          "Saldo D0 Tecban (R$)": "200000000",
+          "Saldo D1 Banco (R$)": "180000000",
+          "Saldo D1 Tecban (R$)": "180000000",
+          "ObservaÃ§Ãµes": "Importado via teste automatizado"
+        }
+      ],
+      "id": "import_versions_1793677635812_0y08x18",
+      "createdAt": "2026-11-03T03:47:15.812Z",
+      "updatedAt": "2026-11-03T03:47:15.812Z"
     }
   ]
 }
