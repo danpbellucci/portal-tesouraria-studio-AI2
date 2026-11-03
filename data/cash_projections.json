@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "collectionName": "cash_projections",
+  "updatedAt": "2026-11-03T02:36:35.583Z",
+  "records": [
+    {
+      "companyId": "comp_elo_part",
+      "date": "2026-10-30",
+      "actualBalance": "25450000.00",
+      "actualInflow": "4200000.00",
+      "actualOutflow": "1850000.00",
+      "projectedBalance": "26000000.00",
+      "projectedInflow": "4000000.00",
+      "projectedOutflow": "2100000.00",
+      "id": "cash_projections_1793673395581_8tkdknq",
+      "createdAt": "2026-11-03T02:36:35.581Z",
+      "updatedAt": "2026-11-03T02:36:35.581Z"
+    },
+    {
+      "companyId": "comp_elo_servicos",
+      "date": "2026-10-30",
+      "actualBalance": "48320000.00",
+      "actualInflow": "12400000.00",
+      "actualOutflow": "9800000.00",
+      "projectedBalance": "49500000.00",
+      "projectedInflow": "11900000.00",
+      "projectedOutflow": "10200000.00",
+      "id": "cash_projections_1793673395583_8j9qrx5",
+      "createdAt": "2026-11-03T02:36:35.583Z",
+      "updatedAt": "2026-11-03T02:36:35.583Z"
+    }
+  ]
+}

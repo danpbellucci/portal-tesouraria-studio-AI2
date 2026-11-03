@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "collectionName": "import_versions",
+  "updatedAt": "2026-11-03T03:08:38.302Z",
+  "records": [
+    {
+      "module": "tecban",
+      "fileName": "dados_tecban_commit.csv",
+      "savedFilePath": "/app/applet/imports/1793675272674_dados_tecban_commit.csv",
+      "importedBy": "dbellucci@elopar.com.br",
+      "importedAt": "2026-11-03T03:07:52.679Z",
+      "totalRows": 1,
+      "insertedCount": 0,
+      "updatedCount": 1,
+      "rejectedCount": 0,
+      "validationErrors": [],
+      "snapshotSummary": "0 inseridos, 1 atualizados, 0 rejeitados",
+      "dataSnapshot": [
+        {
+          "Data": "29/10/2026",
+          "Saldo D0 Banco (R$)": "200000000",
+          "Saldo D0 Tecban (R$)": "200000000",
+          "Saldo D1 Banco (R$)": "180000000",
+          "Saldo D1 Tecban (R$)": "180000000",
+          "ObservaÃ§Ãµes": "Importado via teste automatizado"
+        }
+      ],
+      "id": "import_versions_1793675272680_r4804vi",
+      "createdAt": "2026-11-03T03:07:52.680Z",
+      "updatedAt": "2026-11-03T03:07:52.680Z"
+    },
+    {
+      "module": "tecban",
+      "fileName": "dados_tecban_commit.csv",
+      "savedFilePath": "/app/applet/imports/1793675318299_dados_tecban_commit.csv",
+      "importedBy": "dbellucci@elopar.com.br",
+      "importedAt": "2026-11-03T03:08:38.302Z",
+      "totalRows": 1,
+      "insertedCount": 0,
+      "updatedCount": 1,
+      "rejectedCount": 0,
+      "validationErrors": [],
+      "snapshotSummary": "0 inseridos, 1 atualizados, 0 rejeitados",
+      "dataSnapshot": [
+        {
+          "Data": "29/10/2026",
+          "Saldo D0 Banco (R$)": "200000000",
+          "Saldo D0 Tecban (R$)": "200000000",
+          "Saldo D1 Banco (R$)": "180000000",
+          "Saldo D1 Tecban (R$)": "180000000",
+          "ObservaÃ§Ãµes": "Importado via teste automatizado"
+        }
+      ],
+      "id": "import_versions_1793675318302_ent68t5",
+      "createdAt": "2026-11-03T03:08:38.302Z",
+      "updatedAt": "2026-11-03T03:08:38.302Z"
+    }
+  ]
+}

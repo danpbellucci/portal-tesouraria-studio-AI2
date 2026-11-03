@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "collectionName": "banks",
+  "updatedAt": "2026-11-03T02:36:35.525Z",
+  "records": [
+    {
+      "id": "bank_001",
+      "code": "001",
+      "name": "Banco do Brasil S.A.",
+      "createdAt": "2026-11-03T02:36:35.525Z",
+      "updatedAt": "2026-11-03T02:36:35.525Z"
+    },
+    {
+      "id": "bank_237",
+      "code": "237",
+      "name": "Banco Bradesco S.A.",
+      "createdAt": "2026-11-03T02:36:35.525Z",
+      "updatedAt": "2026-11-03T02:36:35.525Z"
+    },
+    {
+      "id": "bank_341",
+      "code": "341",
+      "name": "Itaú Unibanco S.A.",
+      "createdAt": "2026-11-03T02:36:35.525Z",
+      "updatedAt": "2026-11-03T02:36:35.525Z"
+    },
+    {
+      "id": "bank_033",
+      "code": "033",
+      "name": "Banco Santander (Brasil) S.A.",
+      "createdAt": "2026-11-03T02:36:35.525Z",
+      "updatedAt": "2026-11-03T02:36:35.525Z"
+    },
+    {
+      "id": "bank_104",
+      "code": "104",
+      "name": "Caixa Econômica Federal",
+      "createdAt": "2026-11-03T02:36:35.525Z",
+      "updatedAt": "2026-11-03T02:36:35.525Z"
+    },
+    {
+      "id": "bank_208",
+      "code": "208",
+      "name": "Banco BTG Pactual S.A.",
+      "createdAt": "2026-11-03T02:36:35.525Z",
+      "updatedAt": "2026-11-03T02:36:35.525Z"
+    },
+    {
+      "id": "bank_422",
+      "code": "422",
+      "name": "Banco Safra S.A.",
+      "createdAt": "2026-11-03T02:36:35.525Z",
+      "updatedAt": "2026-11-03T02:36:35.525Z"
+    },
+    {
+      "id": "bank_077",
+      "code": "077",
+      "name": "Banco Inter S.A.",
+      "createdAt": "2026-11-03T02:36:35.525Z",
+      "updatedAt": "2026-11-03T02:36:35.525Z"
+    }
+  ]
+}

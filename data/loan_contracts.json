@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "collectionName": "loan_contracts",
+  "updatedAt": "2026-11-03T02:36:35.591Z",
+  "records": [
+    {
+      "contractNumber": "ELO-FIN-2026-001",
+      "companyId": "comp_elo_servicos",
+      "bankId": "bank_001",
+      "startDate": "2026-01-15",
+      "maturityDate": "2027-01-15",
+      "contractedAmount": "20000000.00",
+      "spreadAnnual": "1.65",
+      "indexer": "CDI",
+      "cdiVersionId": "v_initial_seed",
+      "dayCountConvention": "BUS_252",
+      "currentOutstandingBalance": "20000000.00",
+      "active": true,
+      "notes": "Capital de Giro Institucional - Indexado ao CDI",
+      "events": [
+        {
+          "id": "evt_1",
+          "plannedDate": "2026-04-15",
+          "type": "INTEREST",
+          "plannedAmortization": "0.00",
+          "plannedInterest": "625340.12",
+          "plannedOutstandingBalance": "20000000.00",
+          "actualDate": "2026-04-15",
+          "actualInterest": "625340.12",
+          "actualAmortization": "0.00",
+          "status": "SETTLED"
+        },
+        {
+          "id": "evt_2",
+          "plannedDate": "2026-07-15",
+          "type": "INTEREST",
+          "plannedAmortization": "0.00",
+          "plannedInterest": "618290.45",
+          "plannedOutstandingBalance": "20000000.00",
+          "actualDate": "2026-07-15",
+          "actualInterest": "618290.45",
+          "actualAmortization": "0.00",
+          "status": "SETTLED"
+        },
+        {
+          "id": "evt_3",
+          "plannedDate": "2026-10-15",
+          "type": "INTEREST",
+          "plannedAmortization": "0.00",
+          "plannedInterest": "612140.20",
+          "plannedOutstandingBalance": "20000000.00",
+          "actualDate": "2026-10-15",
+          "actualInterest": "612140.20",
+          "actualAmortization": "0.00",
+          "status": "SETTLED"
+        },
+        {
+          "id": "evt_4",
+          "plannedDate": "2027-01-15",
+          "type": "INTEREST_AND_AMORTIZATION",
+          "plannedAmortization": "20000000.00",
+          "plannedInterest": "629850.80",
+          "plannedOutstandingBalance": "0.00",
+          "status": "PENDING"
+        }
+      ],
+      "id": "loan_contracts_1793673395591_4xufh5p",
+      "createdAt": "2026-11-03T02:36:35.591Z",
+      "updatedAt": "2026-11-03T02:36:35.591Z"
+    }
+  ]
+}

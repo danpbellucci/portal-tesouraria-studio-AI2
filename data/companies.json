@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "collectionName": "companies",
+  "updatedAt": "2026-11-03T02:36:35.541Z",
+  "records": [
+    {
+      "id": "comp_elo_part",
+      "tradeName": "Elo Participações",
+      "legalName": "Elo Participações S.A.",
+      "cnpj": "11.234.567/0001-89",
+      "state": "SP",
+      "city": "Barueri",
+      "active": true,
+      "createdAt": "2026-11-03T02:36:35.537Z",
+      "updatedAt": "2026-11-03T02:36:35.537Z"
+    },
+    {
+      "id": "comp_elo_servicos",
+      "tradeName": "Elo Serviços",
+      "legalName": "Elo Serviços S.A.",
+      "cnpj": "09.227.084/0001-75",
+      "state": "SP",
+      "city": "Barueri",
+      "active": true,
+      "createdAt": "2026-11-03T02:36:35.540Z",
+      "updatedAt": "2026-11-03T02:36:35.540Z"
+    },
+    {
+      "id": "comp_livelo",
+      "tradeName": "Livelo Fidelidade",
+      "legalName": "Livelo S.A.",
+      "cnpj": "12.888.999/0001-44",
+      "state": "SP",
+      "city": "Barueri",
+      "active": true,
+      "createdAt": "2026-11-03T02:36:35.541Z",
+      "updatedAt": "2026-11-03T02:36:35.541Z"
+    }
+  ]
+}

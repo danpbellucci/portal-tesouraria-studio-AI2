@@ -1,0 +1,6 @@
+{
+  "name": "Portal Tesouraria EloPar",
+  "description": "Portal corporativo da Tesouraria da Elo Participações para gestão de caixa, contas correntes, convênios, empréstimos e indicadores.",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

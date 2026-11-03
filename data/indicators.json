@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "collectionName": "indicators",
+  "updatedAt": "2026-11-03T02:36:35.579Z",
+  "records": [
+    {
+      "date": "2026-10-26",
+      "cdiRealizedAnnual": "10.65",
+      "cdiProjectedAnnual": "10.50",
+      "quotaBarauna": "1.4250",
+      "quotaCarnauba": "1.3810",
+      "quotaJacaranda": "1.5090",
+      "quotaCaliandra": "1.2910",
+      "quotaBBCorporateFacil": "1.1860",
+      "versionId": "v_initial_seed",
+      "id": "indicators_1793673395571_wrza8ao",
+      "createdAt": "2026-11-03T02:36:35.571Z",
+      "updatedAt": "2026-11-03T02:36:35.571Z"
+    },
+    {
+      "date": "2026-10-27",
+      "cdiRealizedAnnual": "10.65",
+      "cdiProjectedAnnual": "10.50",
+      "quotaBarauna": "1.4261",
+      "quotaCarnauba": "1.3822",
+      "quotaJacaranda": "1.5101",
+      "quotaCaliandra": "1.2921",
+      "quotaBBCorporateFacil": "1.1872",
+      "versionId": "v_initial_seed",
+      "id": "indicators_1793673395573_a61020t",
+      "createdAt": "2026-11-03T02:36:35.573Z",
+      "updatedAt": "2026-11-03T02:36:35.573Z"
+    },
+    {
+      "date": "2026-10-28",
+      "cdiRealizedAnnual": "10.65",
+      "cdiProjectedAnnual": "10.50",
+      "quotaBarauna": "1.4273",
+      "quotaCarnauba": "1.3835",
+      "quotaJacaranda": "1.5112",
+      "quotaCaliandra": "1.2932",
+      "quotaBBCorporateFacil": "1.1884",
+      "versionId": "v_initial_seed",
+      "id": "indicators_1793673395575_1v51ob0",
+      "createdAt": "2026-11-03T02:36:35.575Z",
+      "updatedAt": "2026-11-03T02:36:35.575Z"
+    },
+    {
+      "date": "2026-10-29",
+      "cdiRealizedAnnual": "10.65",
+      "cdiProjectedAnnual": "10.50",
+      "quotaBarauna": "1.4281",
+      "quotaCarnauba": "1.3846",
+      "quotaJacaranda": "1.5119",
+      "quotaCaliandra": "1.2939",
+      "quotaBBCorporateFacil": "1.1891",
+      "versionId": "v_initial_seed",
+      "id": "indicators_1793673395577_zo60nbn",
+      "createdAt": "2026-11-03T02:36:35.577Z",
+      "updatedAt": "2026-11-03T02:36:35.577Z"
+    },
+    {
+      "date": "2026-10-30",
+      "cdiRealizedAnnual": "10.65",
+      "cdiProjectedAnnual": "10.50",
+      "quotaBarauna": "1.4285",
+      "quotaCarnauba": "1.3854",
+      "quotaJacaranda": "1.5120",
+      "quotaCaliandra": "1.2941",
+      "quotaBBCorporateFacil": "1.1895",
+      "versionId": "v_initial_seed",
+      "id": "indicators_1793673395579_5k1ssc0",
+      "createdAt": "2026-11-03T02:36:35.579Z",
+      "updatedAt": "2026-11-03T02:36:35.579Z"
+    }
+  ]
+}

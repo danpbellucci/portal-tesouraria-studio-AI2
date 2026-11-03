@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "collectionName": "users",
+  "updatedAt": "2026-11-03T03:08:38.252Z",
+  "records": [
+    {
+      "email": "dbellucci@elopar.com.br",
+      "name": "Administrador Elo Treasury",
+      "passwordHash": "ce96f80f8d4435d37a384be69867ca47e8c32ccb5f345a3da9206bb072185e7079343d8263c3d151d3abfa6d263e65f26d93dc1618f19abe86dbd6a1c580aeb8",
+      "salt": "b6b9b00b754892692f15134a7fb276b7",
+      "roleId": "role_admin",
+      "status": "ACTIVE",
+      "failedLoginAttempts": 0,
+      "id": "users_1793673412511_9zyspuh",
+      "createdAt": "2026-11-03T02:36:52.511Z",
+      "updatedAt": "2026-11-03T03:08:38.252Z",
+      "lastLoginAt": "2026-11-03T03:08:38.251Z",
+      "lastLoginIp": "127.0.0.1"
+    }
+  ]
+}

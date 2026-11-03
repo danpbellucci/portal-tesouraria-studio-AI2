@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "collectionName": "company_directors",
+  "updatedAt": "2026-11-03T02:36:35.552Z",
+  "records": [
+    {
+      "companyId": "comp_elo_part",
+      "directorId": "directors_1793673395531_zm8warg",
+      "active": true,
+      "id": "company_directors_1793673395544_y66w1c9",
+      "createdAt": "2026-11-03T02:36:35.544Z",
+      "updatedAt": "2026-11-03T02:36:35.544Z"
+    },
+    {
+      "companyId": "comp_elo_part",
+      "directorId": "directors_1793673395534_ervff56",
+      "active": true,
+      "id": "company_directors_1793673395546_2xi5vw7",
+      "createdAt": "2026-11-03T02:36:35.546Z",
+      "updatedAt": "2026-11-03T02:36:35.546Z"
+    },
+    {
+      "companyId": "comp_elo_servicos",
+      "directorId": "directors_1793673395531_zm8warg",
+      "active": true,
+      "id": "company_directors_1793673395548_jfrcce5",
+      "createdAt": "2026-11-03T02:36:35.548Z",
+      "updatedAt": "2026-11-03T02:36:35.548Z"
+    },
+    {
+      "companyId": "comp_elo_servicos",
+      "directorId": "directors_1793673395535_p39rytx",
+      "active": true,
+      "id": "company_directors_1793673395550_qzs8b6a",
+      "createdAt": "2026-11-03T02:36:35.550Z",
+      "updatedAt": "2026-11-03T02:36:35.550Z"
+    },
+    {
+      "companyId": "comp_livelo",
+      "directorId": "directors_1793673395534_ervff56",
+      "active": true,
+      "id": "company_directors_1793673395552_60mh2iu",
+      "createdAt": "2026-11-03T02:36:35.552Z",
+      "updatedAt": "2026-11-03T02:36:35.552Z"
+    }
+  ]
+}

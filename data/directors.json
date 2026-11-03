@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "collectionName": "directors",
+  "updatedAt": "2026-11-03T02:36:35.535Z",
+  "records": [
+    {
+      "name": "Eduardo Chedid",
+      "active": true,
+      "id": "directors_1793673395531_zm8warg",
+      "createdAt": "2026-11-03T02:36:35.531Z",
+      "updatedAt": "2026-11-03T02:36:35.531Z"
+    },
+    {
+      "name": "Roberto Valério",
+      "active": true,
+      "id": "directors_1793673395534_ervff56",
+      "createdAt": "2026-11-03T02:36:35.534Z",
+      "updatedAt": "2026-11-03T02:36:35.534Z"
+    },
+    {
+      "name": "Luciana Martins",
+      "active": true,
+      "id": "directors_1793673395535_p39rytx",
+      "createdAt": "2026-11-03T02:36:35.535Z",
+      "updatedAt": "2026-11-03T02:36:35.535Z"
+    }
+  ]
+}

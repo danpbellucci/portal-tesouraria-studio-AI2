@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "collectionName": "bank_accesses",
+  "updatedAt": "2026-11-03T02:36:35.565Z",
+  "records": [
+    {
+      "companyId": "comp_elo_servicos",
+      "bankId": "bank_001",
+      "accessProfile": "Master / Aprovador Nível 3",
+      "userName": "Carlos Silva",
+      "managerName": "Mariana Silveira",
+      "active": true,
+      "notes": "Acesso com token físico e certificação digital",
+      "id": "bank_accesses_1793673395563_asg42mg",
+      "createdAt": "2026-11-03T02:36:35.563Z",
+      "updatedAt": "2026-11-03T02:36:35.563Z"
+    },
+    {
+      "companyId": "comp_elo_servicos",
+      "bankId": "bank_237",
+      "accessProfile": "Operador Financeiro / Remessa",
+      "userName": "Camila Fernandes",
+      "managerName": "Carlos Silva",
+      "active": true,
+      "id": "bank_accesses_1793673395565_qg1ygcl",
+      "createdAt": "2026-11-03T02:36:35.565Z",
+      "updatedAt": "2026-11-03T02:36:35.565Z"
+    }
+  ]
+}

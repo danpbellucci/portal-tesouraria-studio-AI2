@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "collectionName": "bank_agreements",
+  "updatedAt": "2026-11-03T02:36:35.561Z",
+  "records": [
+    {
+      "companyId": "comp_elo_servicos",
+      "bankId": "bank_001",
+      "agreementType": "COBRANCA",
+      "agreementCode": "0087654321",
+      "managerName": "Mariana Silveira",
+      "active": true,
+      "notes": "Convênio com liquidação D+1",
+      "id": "bank_agreements_1793673395560_vmegkle",
+      "createdAt": "2026-11-03T02:36:35.560Z",
+      "updatedAt": "2026-11-03T02:36:35.560Z"
+    },
+    {
+      "companyId": "comp_elo_servicos",
+      "bankId": "bank_237",
+      "agreementType": "PAGFOR",
+      "agreementCode": "00445566-01",
+      "managerName": "Carlos Drummond",
+      "active": true,
+      "notes": "Lote de folha e pagamentos a terceiros",
+      "id": "bank_agreements_1793673395561_zcsuwta",
+      "createdAt": "2026-11-03T02:36:35.561Z",
+      "updatedAt": "2026-11-03T02:36:35.561Z"
+    }
+  ]
+}

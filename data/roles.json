@@ -1,0 +1,509 @@
+{
+  "schemaVersion": 1,
+  "collectionName": "roles",
+  "updatedAt": "2026-11-03T02:36:35.520Z",
+  "records": [
+    {
+      "id": "role_admin",
+      "name": "Administrador Geral",
+      "description": "Acesso total de gestão e administração ao Portal Tesouraria",
+      "isSystemAdmin": true,
+      "permissions": {
+        "companies": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "current_accounts": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "agreements": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "accesses": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "indicators": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "cash_projections": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "tecban": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "loans": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "holidays": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "users": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "backups": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "audit": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "tariffs": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "judicial_blocks": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "bank_contacts": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "powers": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "procurators": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "contracts": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "policies": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "manuals": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "accounting_routes": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "activity_divisions": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "dividends_jcp": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ],
+        "approvals": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "import",
+          "export",
+          "admin"
+        ]
+      },
+      "createdAt": "2026-11-03T02:36:35.520Z",
+      "updatedAt": "2026-11-03T02:36:35.520Z"
+    },
+    {
+      "id": "role_analyst",
+      "name": "Analista de Tesouraria",
+      "description": "Operação financeira, cadastros, importações e projeções",
+      "isSystemAdmin": false,
+      "permissions": {
+        "companies": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "current_accounts": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "agreements": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "accesses": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "indicators": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "cash_projections": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "tecban": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "loans": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "holidays": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "users": [
+          "view"
+        ],
+        "backups": [
+          "view"
+        ],
+        "audit": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "tariffs": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "judicial_blocks": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "bank_contacts": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "powers": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "procurators": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "contracts": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "policies": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "manuals": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "accounting_routes": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "activity_divisions": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "dividends_jcp": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ],
+        "approvals": [
+          "view",
+          "create",
+          "edit",
+          "import",
+          "export"
+        ]
+      },
+      "createdAt": "2026-11-03T02:36:35.520Z",
+      "updatedAt": "2026-11-03T02:36:35.520Z"
+    },
+    {
+      "id": "role_viewer",
+      "name": "Auditor / Consulta",
+      "description": "Acesso apenas de leitura aos relatórios e posições financeiras",
+      "isSystemAdmin": false,
+      "permissions": {
+        "companies": [
+          "view",
+          "export"
+        ],
+        "current_accounts": [
+          "view",
+          "export"
+        ],
+        "agreements": [
+          "view",
+          "export"
+        ],
+        "accesses": [
+          "view",
+          "export"
+        ],
+        "indicators": [
+          "view",
+          "export"
+        ],
+        "cash_projections": [
+          "view",
+          "export"
+        ],
+        "tecban": [
+          "view",
+          "export"
+        ],
+        "loans": [
+          "view",
+          "export"
+        ],
+        "holidays": [
+          "view",
+          "export"
+        ],
+        "users": [
+          "view",
+          "export"
+        ],
+        "backups": [
+          "view",
+          "export"
+        ],
+        "audit": [
+          "view",
+          "export"
+        ],
+        "tariffs": [
+          "view",
+          "export"
+        ],
+        "judicial_blocks": [
+          "view",
+          "export"
+        ],
+        "bank_contacts": [
+          "view",
+          "export"
+        ],
+        "powers": [
+          "view",
+          "export"
+        ],
+        "procurators": [
+          "view",
+          "export"
+        ],
+        "contracts": [
+          "view",
+          "export"
+        ],
+        "policies": [
+          "view",
+          "export"
+        ],
+        "manuals": [
+          "view",
+          "export"
+        ],
+        "accounting_routes": [
+          "view",
+          "export"
+        ],
+        "activity_divisions": [
+          "view",
+          "export"
+        ],
+        "dividends_jcp": [
+          "view",
+          "export"
+        ],
+        "approvals": [
+          "view",
+          "export"
+        ]
+      },
+      "createdAt": "2026-11-03T02:36:35.520Z",
+      "updatedAt": "2026-11-03T02:36:35.520Z"
+    }
+  ]
+}

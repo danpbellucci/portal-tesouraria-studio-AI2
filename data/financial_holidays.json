@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "collectionName": "financial_holidays",
+  "updatedAt": "2026-11-03T02:36:35.527Z",
+  "records": [
+    {
+      "id": "hol_2026_01_01",
+      "date": "2026-01-01",
+      "description": "Confraternização Universal",
+      "type": "NATIONAL_BANKING",
+      "source": "FEBRABAN",
+      "createdAt": "2026-11-03T02:36:35.527Z",
+      "updatedAt": "2026-11-03T02:36:35.527Z"
+    },
+    {
+      "id": "hol_2026_02_16",
+      "date": "2026-02-16",
+      "description": "Carnaval (Segunda-feira)",
+      "type": "NATIONAL_BANKING",
+      "source": "FEBRABAN",
+      "createdAt": "2026-11-03T02:36:35.527Z",
+      "updatedAt": "2026-11-03T02:36:35.527Z"
+    },
+    {
+      "id": "hol_2026_02_17",
+      "date": "2026-02-17",
+      "description": "Carnaval (Terça-feira)",
+      "type": "NATIONAL_BANKING",
+      "source": "FEBRABAN",
+      "createdAt": "2026-11-03T02:36:35.527Z",
+      "updatedAt": "2026-11-03T02:36:35.527Z"
+    },
+    {
+      "id": "hol_2026_04_03",
+      "date": "2026-04-03",
+      "description": "Paixão de Cristo",
+      "type": "NATIONAL_BANKING",
+      "source": "FEBRABAN",
+      "createdAt": "2026-11-03T02:36:35.527Z",
+      "updatedAt": "2026-11-03T02:36:35.527Z"
+    },
+    {
+      "id": "hol_2026_04_21",
+      "date": "2026-04-21",
+      "description": "Tiradentes",
+      "type": "NATIONAL_BANKING",
+      "source": "FEBRABAN",
+      "createdAt": "2026-11-03T02:36:35.527Z",
+      "updatedAt": "2026-11-03T02:36:35.527Z"
+    },
+    {
+      "id": "hol_2026_05_01",
+      "date": "2026-05-01",
+      "description": "Dia do Trabalho",
+      "type": "NATIONAL_BANKING",
+      "source": "FEBRABAN",
+      "createdAt": "2026-11-03T02:36:35.527Z",
+      "updatedAt": "2026-11-03T02:36:35.527Z"
+    },
+    {
+      "id": "hol_2026_06_04",
+      "date": "2026-06-04",
+      "description": "Corpus Christi",
+      "type": "NATIONAL_BANKING",
+      "source": "FEBRABAN",
+      "createdAt": "2026-11-03T02:36:35.527Z",
+      "updatedAt": "2026-11-03T02:36:35.527Z"
+    },
+    {
+      "id": "hol_2026_09_07",
+      "date": "2026-09-07",
+      "description": "Independência do Brasil",
+      "type": "NATIONAL_BANKING",
+      "source": "FEBRABAN",
+      "createdAt": "2026-11-03T02:36:35.527Z",
+      "updatedAt": "2026-11-03T02:36:35.527Z"
+    },
+    {
+      "id": "hol_2026_10_12",
+      "date": "2026-10-12",
+      "description": "Nossa Senhora Aparecida",
+      "type": "NATIONAL_BANKING",
+      "source": "FEBRABAN",
+      "createdAt": "2026-11-03T02:36:35.527Z",
+      "updatedAt": "2026-11-03T02:36:35.527Z"
+    },
+    {
+      "id": "hol_2026_11_02",
+      "date": "2026-11-02",
+      "description": "Finados",
+      "type": "NATIONAL_BANKING",
+      "source": "FEBRABAN",
+      "createdAt": "2026-11-03T02:36:35.527Z",
+      "updatedAt": "2026-11-03T02:36:35.527Z"
+    },
+    {
+      "id": "hol_2026_11_15",
+      "date": "2026-11-15",
+      "description": "Proclamação da República",
+      "type": "NATIONAL_BANKING",
+      "source": "FEBRABAN",
+      "createdAt": "2026-11-03T02:36:35.527Z",
+      "updatedAt": "2026-11-03T02:36:35.527Z"
+    },
+    {
+      "id": "hol_2026_11_20",
+      "date": "2026-11-20",
+      "description": "Dia Nacional de Zumbi e da Consciência Negra",
+      "type": "NATIONAL_BANKING",
+      "source": "FEBRABAN",
+      "createdAt": "2026-11-03T02:36:35.527Z",
+      "updatedAt": "2026-11-03T02:36:35.527Z"
+    },
+    {
+      "id": "hol_2026_12_25",
+      "date": "2026-12-25",
+      "description": "Natal",
+      "type": "NATIONAL_BANKING",
+      "source": "FEBRABAN",
+      "createdAt": "2026-11-03T02:36:35.527Z",
+      "updatedAt": "2026-11-03T02:36:35.527Z"
+    },
+    {
+      "id": "hol_2026_12_31",
+      "date": "2026-12-31",
+      "description": "Último dia útil do ano (sem expediente ao público)",
+      "type": "NATIONAL_BANKING",
+      "source": "FEBRABAN",
+      "createdAt": "2026-11-03T02:36:35.527Z",
+      "updatedAt": "2026-11-03T02:36:35.527Z"
+    }
+  ]
+}

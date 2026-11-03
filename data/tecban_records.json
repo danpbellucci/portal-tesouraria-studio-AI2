@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "collectionName": "tecban_records",
+  "updatedAt": "2026-11-03T03:08:38.302Z",
+  "records": [
+    {
+      "date": "2026-10-28",
+      "actualBalance": "81200000.00",
+      "actualWithdrawals": "11500000.00",
+      "actualReloads": "14000000.00",
+      "projectedBalance": "82000000.00",
+      "projectedWithdrawals": "11200000.00",
+      "projectedReloads": "13800000.00",
+      "id": "tecban_records_1793673395585_oxyyqad",
+      "createdAt": "2026-11-03T02:36:35.585Z",
+      "updatedAt": "2026-11-03T02:36:35.585Z"
+    },
+    {
+      "date": "2026-10-29",
+      "actualBalance": null,
+      "actualWithdrawals": null,
+      "actualReloads": null,
+      "projectedBalance": null,
+      "projectedWithdrawals": null,
+      "projectedReloads": null,
+      "id": "tecban_records_1793673395587_lgkubf4",
+      "createdAt": "2026-11-03T02:36:35.587Z",
+      "updatedAt": "2026-11-03T02:36:35.587Z",
+      "importVersionId": "import_versions_1793675318302_ent68t5"
+    },
+    {
+      "date": "2026-10-30",
+      "actualBalance": "83450000.00",
+      "actualWithdrawals": "12800000.00",
+      "actualReloads": "15200000.00",
+      "projectedBalance": "84000000.00",
+      "projectedWithdrawals": "12300000.00",
+      "projectedReloads": "15000000.00",
+      "id": "tecban_records_1793673395589_5r1h1du",
+      "createdAt": "2026-11-03T02:36:35.589Z",
+      "updatedAt": "2026-11-03T02:36:35.589Z"
+    }
+  ]
+}
